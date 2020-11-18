@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+body::-webkit-scrollbar{
+  width: 12px;
+}
+body::-webkit-scrollbar-track{
+  background: #1b1f29;
+}
+body::-webkit-scrollbar-thumb{
+  background: #fe5590;
+  border-radius: 5px;
+}
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  /* background-image: linear-gradient(to bottom, #130d0b, #18110e, #1d1411, #211713, #261a15); */
+  background-color: #130d0b;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+    
+}
+
+
+.teste:active{
+  border: none;
+  border-style: none;
+
+}
+.imgwpp{
+  height: 583px;
+}
+.bg-topo{
+  background-image: url(../images/bg-topo.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bg-gota{
+  background-image: url(../images/gotas-white.png);
+  height: 175px;
+}
+.bg-gota-choco{
+  background-image: url(../images/gotas-choco.png);
+  height: 175px;
+}
+
+.btn-branco-oferta{
+  border: 3px solid #fe5590;
+  background-color:#00ffec;
+  transition:all 0.3s ;
+  color: #371e15;
+  font-size: 37px;
+  max-width: 700px;
+  cursor: pointer;
+  animation: boot 1s infinite;
+}
+.btn-branco-oferta:hover{
+  background: white;
+  transition:all 0.3s ;
+}
+
+.btn-branco{
+  border: 3px solid #371e15;
+  background-color: #fe5590;
+  transition:all 0.3s ;
+  color: white;
+  font-size: 37px;
+  max-width: 700px;
+  cursor: pointer;
+  animation: boot 1s infinite;
+}
+.btn-branco:hover{
+   background: #00ffec;
+   color: #371e15;
+   transition:all 0.3s ;
+}
+.barra-bonus{
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 20px;
+}
+
+@keyframes boot {
+  0%   {transform: scale(0.95);}
+  50%  {transform: scale(1);}
+  100% {transform: scale(0.95);}
+  
+  }
+
+.ffd{
+  font-family: 'Sacramento', cursive;
+}
+
+.bg-icon{
+  background-image: url(../images/bg-10.webp);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+.bg-icon-b{
+  background-image: url(../images/bg-b.png);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+.rounded-10{
+  border-radius: 10px;
+}
+.rounded-20{
+  border-radius: 20px;
+}
+.text-pink{
+  color: #fe5590;
+}
+.text-blue{
+  color: #07ffec;
+}
+.text-marrom{
+  color: #371e15;
+}
+.text-red{
+  color: #eb0037;
+}
+.text-yellow{
+  color: #ffa907;
+}
+
+.bg-pink{
+  background-color: #fe5590;
+}
+.bg-red{
+  background-color: #eb0037;
+}
+.bg-blue{
+  background-color: #00ffec;
+}
+.bg-colo{
+  background-image: linear-gradient(to right top, #ffc800, #ffc000, #ffb800, #ffb103, #ffa907);
+}
+.bg-video{
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+}
+.faq{
+  /* box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.1); */
+  transition:all 0.3s ;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  margin-bottom: 3px;
+}
+
+.text-14{
+  font-size: 14px;
+}
+.text-18{
+  font-size: 18px;
+}
+.text-24{
+  font-size: 24px;
+}
+.text-40{
+  font-size: 40px;
+}
+.text-50{
+  font-size: 50px;
+}
+.text-60{
+  font-size: 60px;
+}
+
+
+  /* Peso Fonte */
+  .tw400{
+    font-weight: 400;
+  }
+  .tw500{
+    font-weight: 500;
+  }
+  .tw600{
+    font-weight: 600;
+  }
+  .tw700{
+    font-weight: 700;
+  }
+  .tw800{
+    font-weight: 800;
+}
+  .tw900{
+    font-weight: 900;
+} 
+
+/* Espaçamento Linha */
+.theight{
+  line-height: normal;
+}
+.theight1{
+  line-height: 1;
+}
+
+.box-wpp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #19ae7b;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    padding: 30px 10px;
+    border: solid 4px rgba(255, 255, 255, 0.2);
+    z-index:9999;
+}
+.ico-wpp{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.txt-wpp{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    margin:0px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .text-60{
+      font-size: 45px;
+  }
+  .text-50{
+      font-size: 41px;
+  }
+}
