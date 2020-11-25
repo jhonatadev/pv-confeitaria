@@ -25,7 +25,7 @@
         closable: false,
         position: 'bottom right',
         delay: 7000, // 7000
-        onClickUrl: 'https://app.monetizze.com.br/checkout/DCB92179',
+        onClickUrl: 'https://app.monetizze.com.br/r/BZH1074139',
         width: 300
     });
 
