@@ -25,7 +25,7 @@
         closable: false,
         position: 'bottom right',
         delay: 7000, // 7000
-        onClickUrl: 'https://app.monetizze.com.br/r/BZH1074139',
+        onClickUrl: 'https://app.monetizze.com.br/r/BDC1074408',
         width: 300
     });
 
